@@ -1,21 +1,13 @@
-# SumList
+# Desafio 01 - Utilizando Recursão
+Minha resolução do Desafio 01 do Módulo 01.
 
-**TODO: Add description**
+## 💻 Sobre o desafio
 
-## Installation
+Nesse desafio, você deverá criar uma função que, dada uma lista de números (exemplo `[1, 3, 6, 43, 6]`), calcule, **recursivamente**, quantos elementos há na lista e retorne esse valor.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `sum_list` to your list of dependencies in `mix.exs`:
+Para exemplo, temos a seguinte entrada e saída esperada pela função que recebe a lista:
 
-```elixir
-def deps do
-  [
-    {:sum_list, "~> 0.1.0"}
-  ]
-end
+```bash
+iex> ListLength.call([1, 2, 3, 5, 7])
+...> 5
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/sum_list>.
-
